@@ -1,0 +1,7 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: libclblast
+Source: https://github.com/CNugteren/CLBlast
+
+Files: *
+Copyright: 2018 Cedric Nugteren <cnugteren.github.io>
+License: Apache v2.0
