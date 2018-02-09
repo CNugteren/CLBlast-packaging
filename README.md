@@ -2,7 +2,10 @@
 The packaging scripts for CLBlast
 ================
 
-This repository contains the packaging scripts for the [CLBlast OpenCL BLAS library](https://github.com/CNugteren/CLBlast). For more information see the CLBlast repository.
+This repository contains the packaging scripts for the [CLBlast OpenCL BLAS library](https://github.com/CNugteren/CLBlast). For more information see the CLBlast repository. This repository contains packaging scripts maintained by the author of CLBlast. There are also other packages maintained by others:
+
+* Conda: https://github.com/conda-forge/clblast-feedstock
+* Archlinux: https://aur.archlinux.org/packages/clblast-git/
 
 
 Debian
@@ -17,7 +20,7 @@ Debian/Ubuntu packaging is included. A package can be created by running `debuil
     cp -r ../debian/ .
     debuild -us -uc
 
-The package is uploaded to an Ubuntu PPA: https://launchpad.net/~cnugteren/+archive/ubuntu/clblasts
+The package is uploaded to an Ubuntu PPA: https://launchpad.net/~cnugteren/+archive/ubuntu/clblast
 
 
 Brew (OS X)

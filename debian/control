@@ -1,7 +1,7 @@
 Source: clblast
 Priority: optional
 Maintainer: Cedric Nugteren <web@cedricnugteren.nl>
-Build-Depends: cmake, debhelper (>= 10), ocl-icd-opencl-dev | opencl-dev
+Build-Depends: cmake, debhelper (>= 9), ocl-icd-opencl-dev | opencl-dev
 Standards-Version: 3.9.8
 Section: libs
 Homepage: https://github.com/CNugteren/CLBlast
@@ -13,10 +13,18 @@ Section: libdevel
 Architecture: any
 Depends: libclblast, ${shlibs:Depends}, ${misc:Depends}
 Description: CLBlast: The Tuned OpenCL BLAS Library
- CLBlast is a modern, lightweight, performant and tunable OpenCL BLAS library. It is designed to leverage the full performance potential of a wide variety of OpenCL devices from different vendors, including desktop and laptop GPUs, embedded GPUs, and other accelerators.
+ CLBlast is a modern, lightweight, performant and tunable
+ OpenCL BLAS library. It is designed to leverage the full
+ performance potential of a wide variety of OpenCL devices
+ from different vendors, including desktop and laptop
+ GPUs, embedded GPUs, and other accelerators.
 
 Package: libclblast
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: CLBlast: The Tuned OpenCL BLAS Library
- CLBlast is a modern, lightweight, performant and tunable OpenCL BLAS library. It is designed to leverage the full performance potential of a wide variety of OpenCL devices from different vendors, including desktop and laptop GPUs, embedded GPUs, and other accelerators.
+ CLBlast is a modern, lightweight, performant and tunable
+ OpenCL BLAS library. It is designed to leverage the full
+ performance potential of a wide variety of OpenCL devices
+ from different vendors, including desktop and laptop
+ GPUs, embedded GPUs, and other accelerators.
