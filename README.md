@@ -20,6 +20,11 @@ Debian/Ubuntu packaging is included. A package can be created by running `debuil
     cp -r ../debian/ .
     debuild -us -uc
 
+For releasing to the Ubuntu PPA, follow the above steps, and then continue with:
+
+    debuild -k<gpg-key-id> -S
+    dput clblast ../clblast_1.3.0-1ubuntu1_amd64.changes
+
 The package is uploaded to an Ubuntu PPA: https://launchpad.net/~cnugteren/+archive/ubuntu/clblast
 
 

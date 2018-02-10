@@ -1,4 +1,10 @@
-clblast (1.3.0-1) unstable; urgency=medium
+clblast (1.3.0-1ubuntu2) xenial; urgency=medium
+
+  * Fixed dependency issue for Ubuntu PPA
+
+ -- Cedric Nugteren <web@cedricnugteren.nl>  Wed, 07 Feb 2018 21:10:21 +0100
+
+clblast (1.3.0-1ubuntu1) xenial; urgency=medium
 
   * Initial release as a Debian/Ubuntu package
 
