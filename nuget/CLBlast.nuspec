@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>CLBlast</id>
+    <version>1.3.0</version>
+    <title>CLBlast</title>
+    <authors>Cedric Nugteren</authors>
+    <owners>cnugteren</owners>
+    <licenseUrl>https://github.com/CNugteren/CLBlast/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://cnugteren.github.io/clblast/clblast.html</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>CLBlast is a tuned OpenCL BLAS library</description>
+    <summary>CLBlast headers and dlls compiled with Visual Studio for 64bit windows. No debug symbols.</summary>
+    <releaseNotes>https://github.com/CNugteren/CLBlast/blob/master/CHANGELOG</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>native cpp blas CLBlast OpenCL nativepackage</tags>
+  </metadata>
+</package>
