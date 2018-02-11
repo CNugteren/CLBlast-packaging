@@ -11,7 +11,7 @@ This repository contains the packaging scripts for the [CLBlast OpenCL BLAS libr
 Debian
 -------------
 
-Debian/Ubuntu packaging is included. A package can be created by running `debuild -us -uc`, e.g. as follows:
+Debian/Ubuntu packaging is included in the `debian` subfolder. A package can be created by running `debuild -us -uc`, e.g. as follows:
 
     wget -O clblast_1.3.0.orig.tar.gz https://github.com/CNugteren/CLBlast/archive/1.3.0.tar.gz
     tar -xvf clblast_1.3.0.orig.tar.gz
@@ -28,10 +28,10 @@ For releasing to the Ubuntu PPA, follow the above steps, and then continue with:
 The package is uploaded to an Ubuntu PPA: https://launchpad.net/~cnugteren/+archive/ubuntu/clblast
 
 
-Brew (OS X)
+Homebrew (macOS)
 -------------
 
-To be done.
+Homebrew packaging for OSX/macOS is included in the `homebrew` folder. This is a copy of the formula included in the [Homebrew core repository](https://github.com/Homebrew/homebrew-core/blob/master/Formula/clblast.rb). CLBlast can be installed using `brew install clblast`.
 
 
 NuGet (Windows)
