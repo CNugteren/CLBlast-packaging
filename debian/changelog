@@ -1,3 +1,9 @@
+clblast (1.5.0-1ubuntu1) xenial; urgency=medium
+
+  * Updated to version 1.5.0
+
+ -- Cedric Nugteren <web@cedricnugteren.nl>  Sun, 16 Dec 2018 12:00:00 +0100
+
 clblast (1.3.0-1ubuntu3) xenial; urgency=medium
 
   * Removed dependency of libclblast-dev on libclblast to avoid conflicts

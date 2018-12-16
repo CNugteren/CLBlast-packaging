@@ -1,5 +1,5 @@
-libclblast-dbgsym_1.3.0-1_amd64.deb debug extra
-libclblast-dev-dbgsym_1.3.0-1_amd64.deb debug extra
-libclblast-dev_1.3.0-1_amd64.deb libdevel optional
-libclblast_1.3.0-1_amd64.buildinfo libs optional
-libclblast_1.3.0-1_amd64.deb libs optional
+libclblast-dbgsym_1.5.0-1_amd64.deb debug extra
+libclblast-dev-dbgsym_1.5.0-1_amd64.deb debug extra
+libclblast-dev_1.5.0-1_amd64.deb libdevel optional
+libclblast_1.5.0-1_amd64.buildinfo libs optional
+libclblast_1.5.0-1_amd64.deb libs optional
