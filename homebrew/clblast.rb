@@ -1,8 +1,8 @@
 class Clblast < Formula
   desc "Tuned OpenCL BLAS library"
   homepage "https://github.com/CNugteren/CLBlast"
-  url "https://github.com/CNugteren/CLBlast/archive/1.3.0.tar.gz"
-  sha256 "fd5e06c261551366b46ccbc7841012cc69b58c74ed641db4f7a157c055d24223"
+  url "https://github.com/CNugteren/CLBlast/archive/1.5.0.tar.gz"
+  sha256 "b3198d84d175fd18b0674c0c36f5fb8b7c61a00662afb8596eb5b0b9ab98630c"
 
   depends_on "cmake" => :build
 
