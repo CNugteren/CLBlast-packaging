@@ -11,7 +11,7 @@ Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/clblast.git
 Package: libclblast-dev
 Section: libdevel
 Architecture: any
-Depends: libclblast, ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: CLBlast: The Tuned OpenCL BLAS Library
  CLBlast is a modern, lightweight, performant and tunable
  OpenCL BLAS library. It is designed to leverage the full
