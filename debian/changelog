@@ -1,3 +1,15 @@
+clblast (1.5.0-1ubuntu4~bionic) bionic; urgency=low
+
+  * Added missing .so files
+
+ -- Cedric Nugteren <web@cedricnugteren.nl>  Sun, 25 Aug 2019 12:00:00 +0100
+
+clblast (1.5.0-1ubuntu3) xenial; urgency=low
+
+  * Added missing .so files
+
+ -- Cedric Nugteren <web@cedricnugteren.nl>  Sun, 25 Aug 2019 12:00:00 +0100
+
 clblast (1.5.0-1ubuntu2~bionic) bionic; urgency=low
 
   * Updated to version 1.5.0 (first release for Ubuntu 18.04 LTS Bionic)
