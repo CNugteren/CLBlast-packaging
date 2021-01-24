@@ -13,9 +13,9 @@ Debian
 
 Debian/Ubuntu packaging is included in the `debian` subfolder. A package can be created by running `debuild -us -uc`, e.g. as follows:
 
-    wget -O clblast_1.5.0.orig.tar.gz https://github.com/CNugteren/CLBlast/archive/1.5.0.tar.gz
-    tar -xvf clblast_1.5.0.orig.tar.gz
-    mv CLBlast-1.5.0/ clblast
+    wget -O clblast_1.5.2.orig.tar.gz https://github.com/CNugteren/CLBlast/archive/1.5.2.tar.gz
+    tar -xvf clblast_1.5.2.orig.tar.gz
+    mv CLBlast-1.5.2/ clblast
     cd clblast
     cp -r ../debian/ .
     debuild -us -uc
@@ -23,7 +23,7 @@ Debian/Ubuntu packaging is included in the `debian` subfolder. A package can be 
 For releasing to the Ubuntu PPA, follow the above steps, and then continue with:
 
     debuild -k<gpg-key-id> -S  # as found on the Launchpad PPA under "OpenPGP keys"
-    dput clblast ../clblast_1.5.0-1ubuntu1_source.changes
+    dput clblast ../clblast_1.5.2-1ubuntu1_source.changes
 
 The package is uploaded to an Ubuntu PPA: https://launchpad.net/~cnugteren/+archive/ubuntu/clblast
 

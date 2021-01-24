@@ -1,3 +1,33 @@
+clblast (1.5.2-1ubuntu6~xenial) xenial; urgency=medium
+
+  * Updated to version 1.5.2
+
+ -- Cedric Nugteren <web@cedricnugteren.nl>  Thu, 23 Jan 2021 14:00:00 +0100
+
+clblast (1.5.2-1ubuntu5~bionic) bionic; urgency=low
+
+  * Updated to version 1.5.2
+
+ -- Cedric Nugteren <web@cedricnugteren.nl>  Thu, 23 Jan 2021 13:00:00 +0100
+
+clblast (1.5.2-1ubuntu4~focal) focal; urgency=low
+
+  * Updated to version 1.5.2 (first release for Ubuntu 20.04 LTS Focal)
+
+ -- Cedric Nugteren <web@cedricnugteren.nl>  Thu, 21 Jan 2021 14:00:00 +0100
+
+clblast (1.5.2-1ubuntu2~bionic) bionic; urgency=low
+
+  * Updated to version 1.5.2
+
+ -- Cedric Nugteren <web@cedricnugteren.nl>  Thu, 21 Jan 2021 13:00:00 +0100
+
+clblast (1.5.2-1ubuntu1) xenial; urgency=medium
+
+  * Updated to version 1.5.2
+
+ -- Cedric Nugteren <web@cedricnugteren.nl>  Thu, 21 Jan 2021 12:00:00 +0100
+
 clblast (1.5.0-1ubuntu4~bionic) bionic; urgency=low
 
   * Added missing .so files
